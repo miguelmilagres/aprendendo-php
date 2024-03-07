@@ -32,11 +32,6 @@ class IndexController extends Action {
 
         $this->render('sobreNos', 'layout2');
     }
-
-    public function contato() {
-        // $this->view->dados = array('Miguel', 'Elisa', 'Rodrigo');
-        $this->render('contato', 'layout3');
-    }
 }
 
 ?>
